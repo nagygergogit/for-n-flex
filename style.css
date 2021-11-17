@@ -45,3 +45,12 @@
     -webkit-appearance: none !important; 
     border-radius: 0;
   }
+
+  #root {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+  }
